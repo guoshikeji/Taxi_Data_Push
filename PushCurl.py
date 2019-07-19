@@ -11,7 +11,7 @@ import time
 try:
 
     
-    conn2 = pymysql.connect(host='host', user='user', passwd='passwd', db='xxx', port=3306, charset='utf8')
+    conn2 = pymysql.connect(host='host', user='user', passwd='passwd', db='dbname', port=3306, charset='utf8')
     cur2 = conn2.cursor(cursor=pymysql.cursors.DictCursor)
 
 except Exception:
